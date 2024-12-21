@@ -39,6 +39,7 @@ python setup.py install
 pip install transparent-background
 ```
 You may also need to download some CKPT from the repo.
+
 5. Install Co-Tracker:
 
 By following the instructions in the [Co-Tracker](https://github.com/facebookresearch/co-tracker) repo, install the library.
