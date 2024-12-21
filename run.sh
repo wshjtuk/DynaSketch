@@ -1,7 +1,6 @@
 #!/bin/bash
-# folder_list=("bear" "bmx-bumps" "breakdance" "breakdance-flare" "car-roundabout" "cat-girl" "cheetah" "dog" "hike" "horsejump-high" "horsejump-low" "kid-football" "lab-coat" "lucia" "mallard-water" "shooting" "snowboard" "soapbox" "tennis" "walking")
-folder_list=("video2")
-stroke_num=(16 32)
+folder_list=("bmx-bumps")
+stroke_num=(16)
 for video_file in "${folder_list[@]}"; do
     video_file="${video_file}.mp4"
     echo "$video_file"
